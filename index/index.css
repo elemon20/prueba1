@@ -1,3 +1,37 @@
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
 .logo{
 	width: 50%;
+}
+section{
+	background-color: #f3f3f3;
+}
+section .container{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+section h5{
+	color: black;
 }
