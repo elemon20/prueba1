@@ -22,8 +22,12 @@ html {
 }
 body{
   font-family: 'exo 2';
+  box-sizing: border-box;
 }
 
+nav{
+  background-color: #2b6095;
+}
 .logo{
 	width: 50%;
 }
@@ -39,4 +43,24 @@ section .container{
 
 section h5{
 	color: black;
+}
+
+.foot{
+  background-color: #2b6095;
+}
+
+.jumbotron{
+  background-color: #2b6095;
+}
+
+footer h6{
+  text-align: right;
+  color: white;
+}
+footer td{
+  color: white;
+}
+
+footer a{
+ color: white; 
 }
