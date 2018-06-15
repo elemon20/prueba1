@@ -70,7 +70,13 @@ footer a{
  color: white; 
 }
 
+.risa{
+  height: ;
+}
 
+iframe{
+  margin-top: 200px;
+}
 /*CSS nosotros*/
 
 .somos{
@@ -86,5 +92,5 @@ footer a{
 }
 
 .texto-tabla{
-  font-size: 1vw;
+ 
 }
